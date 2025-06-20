@@ -3,5 +3,4 @@
   (lib (name "JLCPCB")(type "KiCad")(uri "/home/miswired/git-repos/PolicyBadge25/KiCad_Libraries/imported.kicad_sym")(options "")(descr ""))
   (lib (name "Antenna")(type "KiCad")(uri "/home/miswired/git-repos/PolicyBadge25/KiCad_Libraries/Antennas.kicad_sym")(options "")(descr ""))
   (lib (name "XAIO ESP32S3")(type "KiCad")(uri "/home/miswired/git-repos/PolicyBadge25/KiCad_Libraries/MOUDLE-SEEEDUINO-XIAO-ESP32S3.kicad_sym")(options "")(descr ""))
-  (lib (name "easyeda2kicad")(type "KiCad")(uri "/Users/steve/Documents/KiCad/easyeda2kicad/easyeda2kicad.kicad_sym")(options "")(descr ""))
 )

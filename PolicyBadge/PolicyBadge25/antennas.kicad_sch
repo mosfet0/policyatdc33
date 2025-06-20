@@ -390,6 +390,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCPCB:0402WGJ0000TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0402WGJ0000TCE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "imported:R0402"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-5_C21376.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C21376"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGJ0000TCE_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -523,48 +636,38 @@
 		(uuid "d3a0a6e7-2496-453f-b3a5-da285691295a")
 	)
 	(junction
-		(at 213.36 134.62)
+		(at 69.85 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "225589cd-cee1-4f71-9061-4c55ec8ecebb")
+		(uuid "23cf61ed-ee5c-48b8-b6ae-416619e53ab9")
 	)
 	(junction
-		(at 60.96 135.89)
+		(at 59.69 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9e52b9e9-5f9a-4bc3-a526-13d172c90715")
+		(uuid "3344088d-30f8-4da5-8d96-08c8db21efc7")
 	)
 	(junction
-		(at 68.58 135.89)
+		(at 222.25 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e71db6b6-8b17-4962-bd65-624930314963")
+		(uuid "5828417b-c185-47e7-9976-43b2b9774a87")
 	)
 	(junction
-		(at 220.98 134.62)
+		(at 212.09 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fce6231b-4a46-483f-bb58-4e0ef7f6d2fd")
+		(uuid "97120421-7c2e-4819-82a1-21bcdfd11521")
 	)
 	(wire
 		(pts
-			(xy 213.36 134.62) (xy 213.36 138.43)
+			(xy 212.09 134.62) (xy 212.09 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f284369-d4cd-4a7f-bc08-332caedd2cf2")
-	)
-	(wire
-		(pts
-			(xy 68.58 135.89) (xy 76.2 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7a15e0-44df-40fa-be42-086e987002fd")
 	)
 	(wire
 		(pts
@@ -578,7 +681,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 135.89) (xy 60.96 135.89)
+			(xy 49.53 135.89) (xy 59.69 135.89)
 		)
 		(stroke
 			(width 0)
@@ -588,7 +691,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 135.89) (xy 68.58 139.7)
+			(xy 69.85 135.89) (xy 69.85 139.7)
 		)
 		(stroke
 			(width 0)
@@ -608,7 +711,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 135.89) (xy 60.96 139.7)
+			(xy 59.69 135.89) (xy 59.69 139.7)
 		)
 		(stroke
 			(width 0)
@@ -618,23 +721,33 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 134.62) (xy 228.6 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de0e2a8-364c-43c3-bf1b-26b07b2975d3")
-	)
-	(wire
-		(pts
-			(xy 201.93 134.62) (xy 213.36 134.62)
+			(xy 201.93 134.62) (xy 212.09 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "88e00647-bef8-454b-af31-f6f6092b3e2f")
+	)
+	(wire
+		(pts
+			(xy 69.85 135.89) (xy 76.2 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e7c700-6e5e-4ce4-b78f-6ad0b140de1a")
+	)
+	(wire
+		(pts
+			(xy 222.25 134.62) (xy 228.6 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6567048-9701-411e-b5fa-331caa8a452c")
 	)
 	(wire
 		(pts
@@ -648,7 +761,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 134.62) (xy 220.98 138.43)
+			(xy 222.25 134.62) (xy 222.25 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2525,7 +2638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00b04398-4197-4f96-87bc-e15956aef164")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR029"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -2575,7 +2688,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "#PWR04")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2696,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 146.05 0)
+		(at 222.25 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2591,8 +2704,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a6ee1ce-10ba-42b4-9ccc-cce5d7304843")
-		(property "Reference" "#PWR012"
-			(at 220.98 152.4 0)
+		(property "Reference" "#PWR031"
+			(at 222.25 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 151.13 0)
+			(at 222.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 146.05 0)
+			(at 222.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 146.05 0)
+			(at 222.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2740,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 146.05 0)
+			(at 222.25 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2754,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "#PWR012")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2649,16 +2762,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 220.98 142.24 0)
+		(at 222.25 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1dd2cc87-6479-4198-acd0-f448eeaf83a9")
-		(property "Reference" "R18"
-			(at 223.52 140.9699 0)
+		(property "Reference" "Z12"
+			(at 224.79 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,7 +2780,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 223.52 143.5099 0)
+			(at 224.79 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2789,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 219.202 142.24 90)
+			(at 220.472 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2798,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 142.24 0)
+			(at 222.25 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2694,7 +2807,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 220.98 142.24 0)
+			(at 222.25 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2711,75 +2824,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2924d46a-fb0c-4c7a-b553-edfaccfab949")
-		(property "Reference" "R11"
-			(at 64.77 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 64.77 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 64.77 137.668 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "638f2086-2e34-4a40-8ed1-deb3b4cf55fa")
-		)
-		(pin "2"
-			(uuid "4f3d8a25-af59-4d54-866c-02d4b624dc5a")
-		)
-		(instances
-			(project "PolicyBadge25"
-				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "R11")
+					(reference "Z12")
 					(unit 1)
 				)
 			)
@@ -2787,7 +2832,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 146.05 0)
+		(at 212.09 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2795,8 +2840,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31299226-a584-4389-9dc7-4c501b486663")
-		(property "Reference" "#PWR011"
-			(at 213.36 152.4 0)
+		(property "Reference" "#PWR030"
+			(at 212.09 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2850,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 151.13 0)
+			(at 212.09 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,7 +2858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 146.05 0)
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2822,7 +2867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 146.05 0)
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2831,7 +2876,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 146.05 0)
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2845,7 +2890,93 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "#PWR011")
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCPCB:0402WGJ0000TCE")
+		(at 64.77 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4272a69e-2969-49f6-bdfd-eae834cae995")
+		(property "Reference" "Z8"
+			(at 64.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 64.77 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "imported:R0402"
+			(at 64.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-5_C21376.html"
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21376"
+			(at 64.77 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGJ0000TCE"
+			(at 64.77 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d4c92e5-d548-42ed-ab5b-318d9231a1a7")
+		)
+		(pin "2"
+			(uuid "eca1f765-5cbc-4a09-b105-cc075016b42e")
+		)
+		(instances
+			(project ""
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
+					(reference "Z8")
 					(unit 1)
 				)
 			)
@@ -2861,7 +2992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b5fb7b5-f33f-49d8-8155-cdcc155b44bd")
-		(property "Reference" "AE4"
+		(property "Reference" "AE1"
 			(at 78.74 130.1749 0)
 			(effects
 				(font
@@ -2912,7 +3043,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "AE4")
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -2928,7 +3059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65c97cdd-dcb2-4414-88ca-bc5591691b69")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR032"
 			(at 231.14 152.4 0)
 			(effects
 				(font
@@ -2978,7 +3109,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "#PWR05")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2986,15 +3117,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 142.24 0)
+		(at 212.09 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6a8a46d8-67b0-4d58-9b18-0ec63ddce0cc")
-		(property "Reference" "R16"
-			(at 207.772 141.224 0)
+		(property "Reference" "Z10"
+			(at 206.502 141.224 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3134,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 210.058 143.256 0)
+			(at 208.788 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,7 +3143,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 211.582 142.24 90)
+			(at 210.312 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,7 +3152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 142.24 0)
+			(at 212.09 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +3161,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 213.36 142.24 0)
+			(at 212.09 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3047,75 +3178,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 217.17 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8059b2d3-ca6e-45c4-8e00-9cc9b59963a7")
-		(property "Reference" "R17"
-			(at 217.17 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 217.17 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 217.17 136.398 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3cb077b2-28b0-4df5-a96f-4b87c5c637e0")
-		)
-		(pin "2"
-			(uuid "c8c508cb-ece4-48bf-a0a9-d638efba7f26")
-		)
-		(instances
-			(project "PolicyBadge25"
-				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "R17")
+					(reference "Z10")
 					(unit 1)
 				)
 			)
@@ -3131,7 +3194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dcd5e76-7667-4be8-8ba2-a1cfe584b2ad")
-		(property "Reference" "AE5"
+		(property "Reference" "AE2"
 			(at 232.41 128.9049 0)
 			(effects
 				(font
@@ -3185,7 +3248,93 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "AE5")
+					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCPCB:0402WGJ0000TCE")
+		(at 217.17 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b250e590-6be4-4f7c-9df3-e8972322e1bf")
+		(property "Reference" "Z11"
+			(at 217.17 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0Ω"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "imported:R0402"
+			(at 217.17 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_0R-0R0-5_C21376.html"
+			(at 217.17 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C21376"
+			(at 217.17 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402WGJ0000TCE"
+			(at 217.17 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51f69a6a-9b3a-4af1-9121-ef1acb62e684")
+		)
+		(pin "2"
+			(uuid "b120254c-85e4-4ea4-b0ff-88d8f0a70d9b")
+		)
+		(instances
+			(project "PolicyBadge25"
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
+					(reference "Z11")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3342,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 147.32 0)
+		(at 69.85 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3201,8 +3350,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2cf25e1-161e-4cc3-9f74-c59d679cb2bf")
-		(property "Reference" "#PWR04"
-			(at 68.58 153.67 0)
+		(property "Reference" "#PWR028"
+			(at 69.85 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3211,7 +3360,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 152.4 0)
+			(at 69.85 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 147.32 0)
+			(at 69.85 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 147.32 0)
+			(at 69.85 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 147.32 0)
+			(at 69.85 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,7 +3400,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "#PWR04")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3259,15 +3408,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 143.51 0)
+		(at 59.69 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c523a8b4-ec2d-458a-9b2a-f3907adfd990")
-		(property "Reference" "R10"
-			(at 55.372 142.494 0)
+		(property "Reference" "Z7"
+			(at 54.102 142.494 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3425,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 57.658 144.526 0)
+			(at 56.388 144.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,7 +3434,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 59.182 143.51 90)
+			(at 57.912 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3294,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 143.51 0)
+			(at 59.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3303,7 +3452,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 60.96 143.51 0)
+			(at 59.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +3469,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "R10")
+					(reference "Z7")
 					(unit 1)
 				)
 			)
@@ -3328,16 +3477,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 68.58 143.51 0)
+		(at 69.85 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c901e450-793d-48ae-85dc-bf32ff4a06da")
-		(property "Reference" "R12"
-			(at 71.12 142.2399 0)
+		(property "Reference" "Z9"
+			(at 72.39 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +3495,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 71.12 144.7799 0)
+			(at 72.39 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3355,7 +3504,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 66.802 143.51 90)
+			(at 68.072 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3513,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 143.51 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3373,7 +3522,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 68.58 143.51 0)
+			(at 69.85 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3539,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "R12")
+					(reference "Z9")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 147.32 0)
+		(at 59.69 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3406,8 +3555,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d712481a-f0aa-4111-a5f9-b2e25b8b0b32")
-		(property "Reference" "#PWR03"
-			(at 60.96 153.67 0)
+		(property "Reference" "#PWR027"
+			(at 59.69 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 152.4 0)
+			(at 59.69 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 147.32 0)
+			(at 59.69 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 147.32 0)
+			(at 59.69 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 147.32 0)
+			(at 59.69 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3456,7 +3605,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/3596fef3-9133-4061-be50-a3314fca7315"
-					(reference "#PWR03")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
