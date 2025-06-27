@@ -293,6 +293,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "JLCPCB:0603WAF2203T5E"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0603WAF2203T5E"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "imported:R0603"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220KR-2203-1_C22961.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C22961"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603WAF2203T5E_0_1"
+				(rectangle
+					(start -2.54 1.02)
+					(end 2.54 -1.02)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "JLCPCB:0603WAF4701T5E"
 			(pin_numbers
 				(hide yes)
@@ -2406,6 +2519,12 @@
 		(uuid "f66ac953-ad35-4249-9f8e-a5caf3e953ce")
 	)
 	(junction
+		(at 110.49 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d6bd024-fc63-454e-9daf-b6331ed142d6")
+	)
+	(junction
 		(at 151.13 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2416,6 +2535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "381df45f-cca5-4482-9ef2-f58146b5e27c")
+	)
+	(junction
+		(at 151.13 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b75864-ae63-4aa2-a5ba-e930447ec4d7")
 	)
 	(junction
 		(at 57.15 157.48)
@@ -2534,10 +2659,6 @@
 		(uuid "c8f14a7b-cfeb-4b61-97c1-8e341c5ecf13")
 	)
 	(no_connect
-		(at 115.57 85.09)
-		(uuid "e5da5a6c-03b8-4e63-9e0e-bee9ab9d8f13")
-	)
-	(no_connect
 		(at 115.57 100.33)
 		(uuid "ea03f429-e966-48ac-b85f-9877d6151aaf")
 	)
@@ -2637,6 +2758,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 57.15) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19c427c2-970f-4b48-8e30-b9078fc980f0")
+	)
+	(wire
+		(pts
 			(xy 86.36 142.24) (xy 121.92 142.24)
 		)
 		(stroke
@@ -2647,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 38.1) (xy 97.79 77.47)
+			(xy 97.79 38.1) (xy 97.79 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2798,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 40.64) (xy 95.25 81.28)
+			(xy 95.25 40.64) (xy 95.25 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2857,6 +2988,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 115.57) (xy 151.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf3a376-e0fd-4f4e-9351-925bf68e8e84")
+	)
+	(wire
+		(pts
 			(xy 77.47 92.71) (xy 92.71 92.71)
 		)
 		(stroke
@@ -2967,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 54.61) (xy 110.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972cc984-5d16-40a8-a625-05829d0f609b")
+	)
+	(wire
+		(pts
 			(xy 173.99 121.92) (xy 198.12 121.92)
 		)
 		(stroke
@@ -3067,6 +3218,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 85.09) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add73e51-224c-4fb0-971d-58f72daffb92")
+	)
+	(wire
+		(pts
 			(xy 26.67 92.71) (xy 44.45 92.71)
 		)
 		(stroke
@@ -3097,6 +3258,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 119.38) (xy 163.83 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8716d79-883f-4762-b165-86547bdafce5")
+	)
+	(wire
+		(pts
 			(xy 226.06 121.92) (xy 220.98 121.92)
 		)
 		(stroke
@@ -3104,6 +3275,26 @@
 			(type default)
 		)
 		(uuid "c255c017-06d5-4347-bca8-dc69e9d12236")
+	)
+	(wire
+		(pts
+			(xy 115.57 81.28) (xy 97.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d95b4a-6642-4ca5-b892-6f4674384b18")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c55c4910-18d1-4ca8-ad79-584cf43867f7")
 	)
 	(wire
 		(pts
@@ -3144,16 +3335,6 @@
 			(type default)
 		)
 		(uuid "ce3648e2-a027-4193-8296-db865833898b")
-	)
-	(wire
-		(pts
-			(xy 151.13 119.38) (xy 163.83 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf2b33fe-8950-46e2-af62-cf0af9834a7d")
 	)
 	(wire
 		(pts
@@ -3207,6 +3388,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 57.15) (xy 110.49 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df14da37-9617-4d75-9c89-ee9c68308fed")
+	)
+	(wire
+		(pts
 			(xy 85.09 157.48) (xy 85.09 166.37)
 		)
 		(stroke
@@ -3214,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "e7ab1624-136f-4771-9b14-9f4f595e7e8d")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e2a37c-f102-417f-a5de-181262f50cd2")
 	)
 	(wire
 		(pts
@@ -3234,16 +3435,6 @@
 			(type default)
 		)
 		(uuid "f16dbdf3-c086-41be-a29b-d2fdaa5cbc7d")
-	)
-	(wire
-		(pts
-			(xy 97.79 77.47) (xy 115.57 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f323f85a-6103-46fe-a2f3-6b56ac29b212")
 	)
 	(wire
 		(pts
@@ -3284,16 +3475,6 @@
 			(type default)
 		)
 		(uuid "f983802f-1269-449e-9bb6-a6c3a812b911")
-	)
-	(wire
-		(pts
-			(xy 95.25 81.28) (xy 115.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faef113d-2ba6-4419-afcd-8a7a4cd35e31")
 	)
 	(wire
 		(pts
@@ -3716,6 +3897,72 @@
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 151.13 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cb338b5-4a72-4a39-badc-d84bf26f9463")
+		(property "Reference" "#PWR024"
+			(at 151.13 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT+"
+			(at 151.13 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.13 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a062c846-9812-4370-a950-debfcc2dc346")
+		)
+		(instances
+			(project "PolicyBadge25"
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4474,6 +4721,93 @@
 		)
 	)
 	(symbol
+		(lib_id "JLCPCB:0603WAF2203T5E")
+		(at 110.49 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77d21897-a0a7-42ce-a514-3ebc768abf67")
+		(property "Reference" "R5"
+			(at 102.362 48.514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220kΩ"
+			(at 102.362 51.054 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "imported:R0603"
+			(at 118.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220KR-2203-1_C22961.html"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22961"
+			(at 123.19 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2203T5E"
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66535753-90a5-4126-a4b1-5009ea4213db")
+		)
+		(pin "2"
+			(uuid "645e5084-69a0-488f-96cb-970c650f68ba")
+		)
+		(instances
+			(project ""
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 168.91 121.92 180)
 		(unit 1)
@@ -4914,6 +5248,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e4089cd-3f68-441f-b6b9-0950c9014396")
+		(property "Reference" "#PWR022"
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a76a8d8a-3310-4795-8d90-e3be610b2e93")
+		)
+		(instances
+			(project "PolicyBadge25"
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "0603WAF4701T5E_1")
 		(lib_id "JLCPCB:0603WAF4701T5E")
 		(at 77.47 82.55 90)
@@ -5134,6 +5533,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 110.49 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9135a3d-93b0-42a9-9772-68ed3c972c69")
+		(property "Reference" "#PWR025"
+			(at 110.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBATT+"
+			(at 110.49 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 110.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4d9a6b1-8e3e-4446-ac39-70d335c3fa2a")
+		)
+		(instances
+			(project "PolicyBadge25"
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCPCB:MH254V-11-04-1000")
 		(at 39.37 96.52 180)
 		(unit 1)
@@ -5211,6 +5676,93 @@
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCPCB:0603WAF2203T5E")
+		(at 110.49 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba914047-0aaa-4416-ad23-611396f6235b")
+		(property "Reference" "R6"
+			(at 102.362 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "220kΩ"
+			(at 102.362 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "imported:R0603"
+			(at 118.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220KR-2203-1_C22961.html"
+			(at 120.65 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C22961"
+			(at 123.19 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0603WAF2203T5E"
+			(at 110.49 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db9c97dd-9d20-4c6b-b82e-59bbee06e3dc")
+		)
+		(pin "2"
+			(uuid "32beacd5-8697-4dfc-998d-ba0068aade66")
+		)
+		(instances
+			(project "PolicyBadge25"
+				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6"
+					(reference "R6")
 					(unit 1)
 				)
 			)
