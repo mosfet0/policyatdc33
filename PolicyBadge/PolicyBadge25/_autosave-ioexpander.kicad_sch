@@ -3859,7 +3859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4225ae41-682c-4319-8518-a9747fbd8907")
-		(property "Reference" "U3"
+		(property "Reference" "U8"
 			(at 97.79 71.7549 90)
 			(effects
 				(font
@@ -3931,7 +3931,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/0606a99a-a678-47a5-968e-d91d30829907"
-					(reference "U3")
+					(reference "U8")
 					(unit 1)
 				)
 			)
