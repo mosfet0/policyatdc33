@@ -2449,12 +2449,6 @@
 		(uuid "2a14b21b-e37b-4f5c-afe0-ad009b056935")
 	)
 	(junction
-		(at 96.52 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35867515-b037-4bd1-9806-59a3a69a3b91")
-	)
-	(junction
 		(at 71.12 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2525,12 +2519,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1bb80db-5d5f-46ea-adb5-97883c40c23d")
-	)
-	(junction
-		(at 96.52 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e6429022-15f6-4e7e-9b96-7cb147c4e174")
 	)
 	(no_connect
 		(at 172.72 63.5)
@@ -3844,94 +3832,6 @@
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/0606a99a-a678-47a5-968e-d91d30829907"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCPCB:K2-1109DF-E4SW-04")
-		(at 96.52 72.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4225ae41-682c-4319-8518-a9747fbd8907")
-		(property "Reference" "U8"
-			(at 97.79 71.7549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 97.79 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "imported:SW-TH_HRO_K2-1109DF-EXXW-XX"
-			(at 104.14 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2909684"
-			(at 106.68 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "K2-1109DF-E4SW-04"
-			(at 96.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c9fbb282-66c6-4e15-aac6-0c07c3cd92ac")
-		)
-		(pin "1"
-			(uuid "e5ae2212-293e-49f4-a57a-72a3ccbaa42c")
-		)
-		(instances
-			(project "PolicyBadge25"
-				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/0606a99a-a678-47a5-968e-d91d30829907"
-					(reference "U8")
 					(unit 1)
 				)
 			)
