@@ -1816,7 +1816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048a71a7-7d5a-4a03-8242-7f4817d768da")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 186.69 116.8399 90)
 			(effects
 				(font
@@ -1888,7 +1888,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -1904,7 +1904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c59b8cd-901e-4b8f-96a8-fd385d520a62")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 93.98 133.35 0)
 			(effects
 				(font
@@ -1954,7 +1954,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1970,7 +1970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28640cad-d449-4d6e-bf95-60ac41af1117")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR041"
 			(at 182.88 133.35 0)
 			(effects
 				(font
@@ -2020,7 +2020,7 @@
 		(instances
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "#PWR036")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -2036,7 +2036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3107ebcd-4594-411d-8deb-31d78036404e")
-		(property "Reference" "L1"
+		(property "Reference" "L2"
 			(at 115.57 101.6 0)
 			(effects
 				(font
@@ -2106,7 +2106,7 @@
 		(instances
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "L1")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2122,7 +2122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38ac19a1-4307-4699-815d-f695a6334863")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR040"
 			(at 128.27 133.35 0)
 			(effects
 				(font
@@ -2172,7 +2172,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2266,7 +2266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73cb9a6c-bb22-4512-8fb7-dc8e98dc76d8")
-		(property "Reference" "C5"
+		(property "Reference" "C8"
 			(at 172.72 116.8399 90)
 			(effects
 				(font
@@ -2338,7 +2338,7 @@
 		(instances
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "C5")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -2354,7 +2354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a89302fd-4aa7-44d9-a917-5893493c7465")
-		(property "Reference" "C3"
+		(property "Reference" "C6"
 			(at 107.95 114.2999 90)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 		(instances
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2528,7 +2528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c11cfb4a-49f7-434f-8353-971175075f89")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 104.14 133.35 0)
 			(effects
 				(font
@@ -2578,7 +2578,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -2594,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c79b64f6-3895-4c5b-b4f5-86828476c7d2")
-		(property "Reference" "C4"
+		(property "Reference" "C7"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -2664,7 +2664,7 @@
 		(instances
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "C4")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1352413-d4ee-49b5-8bfc-c9ecb9be9ab1")
-		(property "Reference" "U4"
+		(property "Reference" "U6"
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -2759,7 +2759,7 @@
 		(instances
 			(project ""
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2775,7 +2775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4f84b44-d3e8-4c0c-8a13-90ef85df297e")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 199.39 116.8399 90)
 			(effects
 				(font
@@ -2847,7 +2847,7 @@
 		(instances
 			(project "PolicyBadge25"
 				(path "/3911717a-8f19-42c2-8f04-ebfae4e12db6/7d9e9d91-9070-4e08-95e2-83714d549a8d"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
