@@ -7172,7 +7172,7 @@
 		(uuid "5704971b-6038-4444-a2fe-cd92b5bb26f1")
 		(at 127.7874 69.7992 90)
 		(property "Reference" "J1"
-			(at 4.83 -5.8584 0)
+			(at 4.83 -5.7912 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "6e437ce4-5dbd-4234-9cb6-c86458068f2c")
